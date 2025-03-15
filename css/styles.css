@@ -1,22 +1,20 @@
 :root {
   /* Primary Colors */
-  --color-primary-400: hsl(227, 67%, 48%);
-  --color-primary-500: hsl(227, 82%, 38%);
+  --color-primary-200: hsl(244, 26%, 89%);
+  --color-primary-400: hsl(249, 56%, 58%);
 
   /* Neutral Colors */
   --color-neutral-100: hsl(0, 0%, 100%);
-  --color-neutral-200: hsl(210, 20%, 98%);
-  --color-neutral-300: hsl(220, 13%, 91%);
-  --color-neutral-400: hsl(221, 8%, 46%);
-  --color-neutral-800: hsl(219, 17%, 27%);
-  --color-neutral-900: hsl(0, 0%, 0%);
+  --color-neutral-400: hsl(220, 9%, 46%);
+  --color-neutral-700: hsl(217, 19%, 27%);
 
   /* Font Family */
-  --ff-base: 'Poppins', sans-serif;
+  --ff-base: 'Red Hat Display', sans-serif;
 
   /* Font Size */
   --fs-48: 3rem;
   --fs-32: 2rem;
+  --fs-24: 1.5rem;
   --fs-20: 1.25rem;
   --fs-18: 1.125rem;
   --fs-16: 1rem;
@@ -25,7 +23,7 @@
   --fs-10: 0.625rem;
 
   /* Default Font Size */
-  --fs-base: var(--fs-16);
+  --fs-base: var(--fs-18);
   /* Font Weights */
   --fw-900: 900;
   --fw-800: 800;
@@ -44,6 +42,8 @@
   --spacing-16: 1rem;
   --spacing-20: 1.25rem;
   --spacing-24: 1.5rem;
+  --spacing-32: 2rem;
+  --spacing-52: 3.25rem;
   --spacing-60: 3.75rem;
   --spacing-80: 5rem;
 }
