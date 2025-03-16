@@ -203,6 +203,7 @@ h2.section__title {
   grid-template-columns: repeat(auto-fill, minmax(250px, 270px));
   grid-template-columns: 1fr;
   margin-block: var(--spacing-80);
+  padding-block-end: 3rem;
 }
 
 .feature {
@@ -230,7 +231,7 @@ picture {
 }
 
 /********* Media Queries **********/
-@media (min-width: 650px) {
+@media (min-width: 40.625rem) {
   body::before {
     background-image: url('../resources/background-png.png');
     background-repeat: no-repeat;
@@ -252,21 +253,17 @@ picture {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 84.375rem) {
   .wrapper {
     margin-inline: auto;
   }
   .features {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.features {
-  padding-block-end: 3rem;
 }
